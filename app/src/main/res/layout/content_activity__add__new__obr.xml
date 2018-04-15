@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity_Add_New_Obr"
+    tools:showIn="@layout/activity__add__new__obr" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:baselineAligned="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:baselineAligned="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp">
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="100dp"
+                android:layout_height="33dp"
+                android:text="Категория: "
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="36dp" />
+
+            <Spinner
+                android:id="@+id/spinner_category"
+                android:layout_width="212dp"
+                android:layout_height="26dp"
+                tools:layout_editor_absoluteX="145dp"
+                tools:layout_editor_absoluteY="43dp"
+                android:entries="@array/category_list"/>
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="100dp"
+                android:layout_height="33dp"
+                android:text="Введите адрес"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="36dp" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:id = "@+id/ed_tx_adress"/>
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+            <!--<TextView
+                android:id="@+id/htmlMap"
+                android:layout_width="195dp"
+                android:layout_height="46dp"
+                android:text="@string/html_Gmaps"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="36dp" />-->
+
+            <Button
+                android:id="@+id/button_open_map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Выбрать на карте" />
+
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="100dp"
+            android:layout_height="33dp"
+            android:text="Описание: "
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="36dp" />
+
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:id = "@+id/ed_tx_description"/>
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+            <Button
+                android:id="@+id/button_send_obr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Отправить" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

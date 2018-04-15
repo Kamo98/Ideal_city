@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Ideal_City</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="server_error">server_error</string>
+    <string name="error_timeout">error_timeout</string>
+    <string name="error_connecting">error_connecting</string>
+    <string name="incorrect_url">error_connecting</string>
+    <string name="too_few_params">error_connecting</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity__add__new__obr">Activity_Add_New_Obr</string>
+
+    <string-array name="category_list">
+        <item>Зимние нарушения</item>
+        <item>Тротуары</item>
+        <item>Зелёные насаждения</item>
+        <item>Дороги</item>
+    </string-array>
+
+    <string name="html_Gmaps"><p><b>sdfsdfs</b></p></string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
